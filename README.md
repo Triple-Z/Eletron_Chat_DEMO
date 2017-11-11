@@ -32,12 +32,20 @@ npm start
 
 If you want to test the app using multiple instances, remember you should only have one instance of the chat server running!
 
-## Create distributable package
-```
-npm install -g electron-packager
-cd electron-chat-app-demo
-electron-packager . --asar
+## Create cross platform packages
+```bash
+# Build packages for Linux
+npm run pack:linux
+# Build packages for macOS
+npm run pack:macos
+# Build packages for Windows
+npm run pack:win
 ```
 You will now have a folder for your platform and you can run the app by executing `electron-chat-app-demo`
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+
+## Create distribution packages
+
+- [ ] Windows `.exe` executable file
+- [x] macOS `.dmg` or `.app` file

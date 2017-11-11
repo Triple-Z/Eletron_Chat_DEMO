@@ -10,7 +10,7 @@
         "start": "electron .",
         "pack:win": "electron-packager . --platform=win32 --arch=all --out=pack/ --overwrite --ignore=\"(.git|.vscode|node_modules)\" --asar --asar-unpack-dir=node_modules/node-notifier/vendor/",
         "pack:linux": "electron-packager . --platform=linux --arch=all --out=pack/ --overwrite --ignore=\"(.git|.vscode|node_modules)\" --asar --asar-unpack=node_modules/node-notifier/vendor/",
-        "pack:macos": ""
+        "pack:macos": "electron-packager . --platform=darwin --arch=all --out=pack/ --overwrite --ignore=\"(.git|.vscode|node_modules)\" --asar --asar-unpack=node_modules/node-notifier/vendor/"
     },
     "repository": {
         "type": "git",
