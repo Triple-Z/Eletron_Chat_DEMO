@@ -16,7 +16,10 @@ function createWindow() {
     });
 
     // Open dev tools.
-    mainWindow.webContents.openDevTools();
+    // mainWindow.webContents.openDevTools();
+
+    // Hide menu bar.
+    mainWindow.setMenu(null);
 
     global.mainWindow = mainWindow;
 }

@@ -14,10 +14,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/demian85/electron-chat-app-demo.git"
+        "url": "git+https://github.com/Triple-Z/electron-chat-app-demo.git"
     },
-    "author": "Demián Rodriguez",
-    "license": "ISC",
+    "author": "TripleZ",
+    "license": "MIT",
     "devDependencies": {
         "asar": "^0.14.0",
         "babel-cli": "^6.16.0",
